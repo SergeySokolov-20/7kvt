@@ -578,6 +578,9 @@ img {
 .col {
   padding: 0;
 }
+.ya-site-form__form {
+   margin-left: -20px;
+}
 
 #ya-site-form0 .ya-site-form__search-input {
   padding: 0px;
@@ -1513,7 +1516,7 @@ img {
   line-height: 20px;
   margin-bottom: 10px;
   margin-top: 20px;
-  margin-left: 3px;
+  margin-left: 15px;
 }
 
 .form-modal__name {
@@ -1524,7 +1527,7 @@ img {
   border: 1px solid #ccc;
   background-color: #fff;
   color: #555;
-  margin-left: 3px;
+  margin-left: 15px;
   -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
   -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
@@ -1662,7 +1665,7 @@ img {
     display: none;
   }
   .range__list {
-    text-align: center;
+    text-align: left;
   }
   .range__title {
     text-align: center;
@@ -1776,38 +1779,57 @@ img {
     text-align: center !important;
   }
   .modal {
-    height: 850px;
+    height: 800px;
   }
   .card-modal__pic {
     width: 200px;
   }
   .form-modal__name {
-    width: 100%;
+    width: 95%;
+    margin-left: 15px;
   }
   .form-modal__phone {
-    width: 100%;
+    width: 95%;
+    margin-left: 15px;
   }
   .form-modal__button {
-    width: 100%;
+    width: 95%;
     left: 0;
+    bottom: -50px;
   }
   .form-modal__select {
-    width: 100%;
+    width: 95%;
   }
   .form-modal__phone-label {
     margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
   }
   .form-modal__name-label {
     margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
   }
   .form-modal__select-label {
     margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .card-modal__title {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  .card-modal__subtitle {
+    margin-bottom: 5px;
+    font-size: 14px;
   }
 }
 
 @media screen and (max-width: 560px) {
   .slick-slider {
     width: 100%;
+  }
+  .range__pic {
+    max-width: 250px;
   }
   .dis-none-cont {
     display: none;
@@ -1833,6 +1855,12 @@ img {
   }
   .card__pic {
     max-width: 250px;
+  }
+  .card-modal__title {
+    font-size: 14px;
+  }
+  .card-modal__subtitle {
+    font-size: 13px;
   }
 }
 /*# sourceMappingURL=main.css.map */
