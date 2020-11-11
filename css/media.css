@@ -1,0 +1,273 @@
+@media screen and (max-width: 1200px) {
+  .menu__text {
+    display: none;
+  }
+  .menu {
+    width: 50%;
+  }
+  .profit__title::before {
+    right: 20%;
+  }
+  .profit__title::after {
+    left: 20%;
+  }
+  .range__pic {
+    max-width: 350px;
+  }
+  .b2b__pic {
+    max-width: 350px;
+  }
+  .b2c__pic {
+    max-width: 350px;
+  }
+  .scene__pic {
+    max-width: 350px;
+  }
+  .usage__content {
+    max-width: 500px;
+  }
+  .rent__pic {
+    max-width: 350px;
+  }
+  .b2c__content {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 820px;
+  }
+  .header__menu {
+    display: none;
+  }
+  .menu__contacts-title {
+    display: none;
+  }
+  .menu__contacts {
+    float: none;
+    max-width: 200px;
+    margin: 0px auto;
+  }
+  .header__logo {
+    display: none;
+  }
+  .ya-site-form {
+    display: none;
+  }
+  .header__link-list {
+    margin-bottom: 20px;
+    padding-left: 50px;
+  }
+  #first {
+    display: none;
+  }
+  #profit {
+    display: none;
+  }
+  #offer {
+    padding-top: 50px;
+  }
+  .rent {
+    display: none;
+  }
+  .range__list {
+    text-align: left;
+  }
+  .range__title {
+    text-align: center;
+  }
+  .range__pic {
+    margin-top: 10px;
+  }
+  .b2b {
+    display: none;
+  }
+  .b2c {
+    display: none;
+  }
+  .scene {
+    display: none;
+  }
+  .usage {
+    display: none;
+  }
+  .connect {
+    padding: 0px 10px;
+  }
+  .footer {
+    padding: 0px 10px;
+  }
+  .form-modal__button {
+    left: 54%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+  .card__text {
+    display: none;
+  }
+  .card__rent-days {
+    display: none;
+  }
+  .dis-none {
+    display: none;
+  }
+  .card__price {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .card__pic {
+    margin: 0px;
+    max-width: 500px;
+  }
+  .card__content {
+    margin-left: 0px;
+  }
+  .card__button-wrapper {
+    max-width: 200px;
+    margin: 0px auto;
+  }
+  .col-md-5 {
+    padding: 0px;
+  }
+  .card__modal {
+    float: left;
+    margin-left: 10px;
+  }
+  .card__pricing {
+    margin-bottom: 0px;
+  }
+  .card__pricing:nth-child(3) {
+    margin-bottom: 10px;
+  }
+  .card__equipment {
+    list-style-type: none;
+    padding-left: 35px;
+    max-width: 250px;
+    margin: 0px auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .card__call {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .pad-lf {
+    padding-left: 30px;
+    max-width: 500px;
+    margin: 0px;
+    margin-bottom: 15px;
+  }
+  .range {
+    padding: 20px 0px 15px 0px;
+  }
+  .more__another {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .more__link {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .catalog {
+    text-align: center;
+    padding-left: 0px;
+  }
+  .catalog-item__img {
+    margin-left: 0px;
+  }
+  .centered-text {
+    text-align: center !important;
+  }
+  .modal {
+    height: 800px;
+  }
+  .card-modal__pic {
+    width: 200px;
+  }
+  .form-modal__name {
+    width: 95%;
+    margin-left: 15px;
+  }
+  .form-modal__phone {
+    width: 95%;
+    margin-left: 15px;
+  }
+  .form-modal__button {
+    width: 95%;
+    left: 0;
+    bottom: -50px;
+  }
+  .form-modal__select {
+    width: 95%;
+  }
+  .form-modal__phone-label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+  }
+  .form-modal__name-label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+  }
+  .form-modal__select-label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .card-modal__title {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  .card-modal__subtitle {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .slick-slider {
+    width: 100%;
+  }
+  .range__pic {
+    max-width: 250px;
+  }
+  .dis-none-cont {
+    display: none;
+  }
+  .connect__social {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 20px;
+  }
+  .footer__logo {
+    max-width: 110px;
+  }
+  .footer__contacts-title {
+    display: none;
+  }
+  .footer__number {
+    font-size: 14px;
+  }
+  .contacts-bottom__text {
+    font-size: 14px;
+  }
+  .card__pic {
+    max-width: 250px;
+  }
+  .card-modal__title {
+    font-size: 14px;
+  }
+  .card-modal__subtitle {
+    font-size: 13px;
+  }
+}
+/*# sourceMappingURL=media.css.map */
